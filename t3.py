@@ -11,7 +11,7 @@ with open('student-mat.csv', 'r') as file:
     G3 = []
     
     for row in reader:
-        G1.append(float(row['G1']))
+        G1.append(float(['G1']))
         G2.append(float(row['G2']))
         G3.append(float(row['G3']))
 
